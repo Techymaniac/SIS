@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, .15);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, .37);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    /* background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+            
+.btn-grad {
+   background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5  51%, #36D1DC  100%);
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+.btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ #select{
+    margin: 0 190px 0 0;
+
+ }        
+           
+.bttn-grad {
+    background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+.bttn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    overflow-x: hidden;
+    /* background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+a{
+	text-decoration: none;
+}
+.changebtn {
+	float: right;
+	background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 );
+	/* background: rgb(19, 125, 139); */
+	padding: 10px 20px;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	margin-right: 267px;
+	border: none;
+}
+section{ display: flex;  }
+.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 120px;}
+
+.leftside img{  width: 80%;}
+.head{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn1 button{
+    width: 100%;
+    height: 50px;
+    background: #0dd6f5;
+    border: none;
+    outline: none;
+    top: 10%;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn2 button{
+    width: 100%;
+    height: 50px;
+    background: #439cac;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+/* .btn.transparent{
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.btn:hover{
+    background-color: #4d84e2;
+} */
+/* h4{
+    font-family: poppins;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+} */
+
+.box1 div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255,255,255,0.8);
+}
+.box1 div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.box1 div:nth-child(2){
+    top: 70%;
+    left: 80%;
+    animation: animate 7s linear infinite;
+}
+.box1 div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+.box1 div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+.box1 div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+.box1 div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+.box1 div:nth-child(7){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+.box1 div:nth-child(8){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+.box1 div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+.box1 div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Student Register form */
+.upload{
+    width: 100px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .upload img{
+    border-radius: 50%;
+    border: 6px solid #eaeaea;
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  
+.Container{
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow : hidden ;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px  20px rgba(0,0,0,0.6);
+
+}
+h2{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2px;
+    border-bottom: 1px solid silver;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.om{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 0;
+    left: 0%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+.input-box label, .gender-title{
+    width: 95%;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.gender-title{
+    font-size: 16px;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-box textarea{
+    height: 90px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-box select{
+    height: 30px;
+    width: 95%;
+    padding: 0 2px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.input-box input:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0, 2);
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+    font-size: 14px;
+}
+.gender-category{
+    color: gainsboro;
+}
+.gender-category label, .gender-category input{
+    cursor: pointer;
+}
+.alert p{
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    line-height: 1.5;
+}
+.alert a{
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+.alert a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #380036;
+}
+.Qualification{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    padding-bottom: 15px;
+    padding: 0px 20px 0 5px;
+    cursor: pointer;
+}
+.button-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #aa076b, #61045f);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button-container button:hover{
+    background-image: linear-gradient(to right, #61045f, #aa076b);
+}
+
+
+
+
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+}
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+    top: 70%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+    top: 50%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(5){
+    top: 92%;
+    left: 60%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(6){
+    top: 90%;
+    left: 70%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(7){
+    top: 15%;
+    left: 5%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(8){
+    top: 90%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(9){
+    top: 60%;
+    left: 15%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(11){
+    top: 60%;
+    left: 95%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(12){
+    top: 90%;
+    left: 94%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(13){
+    top: 20%;
+    left: 92%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(14){
+    top: 92%;
+    left: 60%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(15){
+    top: 90%;
+    left: 70%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(16){
+    top: 15%;
+    left: 5%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(17){
+    top: 90%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(18){
+    top: 50%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(19){
+    top: 20%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+

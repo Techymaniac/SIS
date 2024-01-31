@@ -1,0 +1,179 @@
+body{
+    overflow: hidden;
+}
+.bg{
+    width: 100%;
+    height: 180vh;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 );
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5  51%, #36D1DC  100%);
+    
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+ 
+ .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+}
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(5){
+    top: 92%;
+    left: 60%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(6){
+    top: 90%;
+    left: 70%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(7){
+    top: 15%;
+    left: 5%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(8){
+    top: 90%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(11){
+    top: 60%;
+    left: 95%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(12){
+    top: 90%;
+    left: 94%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(13){
+    top: 20%;
+    left: 92%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(14){
+    top: 92%;
+    left: 60%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(15){
+    top: 90%;
+    left: 70%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(16){
+    top: 15%;
+    left: 5%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(17){
+    top: 90%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(18){
+    top: 50%;
+    left: 10%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(19){
+    top: 20%;
+    left: 80%;
+    border: 50%;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
